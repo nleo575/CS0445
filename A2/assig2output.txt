@@ -1,0 +1,260 @@
+Nics-MacBook-Pro:assig2 Nic$ java Assig2B 10000 1
+Warning, String reverse is incredibly slow and may take more than 5 minutes to complete.
+Are you sure you want to run with String Reverse (y/n)? y
+
+System will output its progress after every 100 reverses.
+Testing with 10,000 characters.
+
+Testing Append:
+
+Testing Append:
+
+	String Total:		49,776,573
+	String Avg:		     4,978
+
+	MyStringBuilder Total:	 1,059,610
+	MyStringBuilder Avg:	       106
+
+	StringBuilder Total:	   961,695
+	StringBuilder Avg:	        96
+
+Testing Delete:
+
+	String Total:		13,977,077
+	String Avg:		     1,398
+
+	MyStringBuilder Total:	   903,185
+	MyStringBuilder Avg:	        90
+
+	StringBuilder Total:	 2,570,667
+	StringBuilder Avg:	       257
+
+
+Testing Insert:
+
+	String Total:		82,591,143
+	String Avg:		     8,259
+
+	MyStringBuilder Total:	43,811,197
+	MyStringBuilder Avg:	     4,381
+
+	StringBuilder Total:	 1,872,541
+	StringBuilder Avg:	       187
+
+
+
+Testing Reverse:
+
+String Reverse progress: 0, 100, 200, 300, 400, 500, 600, 700, 800, 900, 1000, 1100, 1200, 1300, 1400, 1500, 1600, 1700, 1800, 1900, 2000, 2100, 2200, 2300, 2400, 2500, 2600, 2700, 2800, 2900, 3000, 3100, 3200, 3300, 3400, 3500, 3600, 3700, 3800, 3900, 4000, 4100, 4200, 4300, 4400, 4500, 4600, 4700, 4800, 4900, 5000, 5100, 5200, 5300, 5400, 5500, 5600, 5700, 5800, 5900, 6000, 6100, 6200, 6300, 6400, 6500, 6600, 6700, 6800, 6900, 7000, 7100, 7200, 7300, 7400, 7500, 7600, 7700, 7800, 7900, 8000, 8100, 8200, 8300, 8400, 8500, 8600, 8700, 8800, 8900, 9000, 9100, 9200, 9300, 9400, 9500, 9600, 9700, 9800, 9900,
+
+	String Total:		348,351,616,796
+	String Avg:		     34,835,162
+
+	MSB Total:		115,407,700
+	MSB Avg:		     11,541
+
+	MSB Total:		25,133,936
+	MSB Avg:		     2,513
+
+Nics-MacBook-Pro:assig2 Nic$ java Assig2B 20000 1
+Warning, String reverse is incredibly slow and may take more than 45 minutes to complete.
+Are you sure you want to run with String Reverse (y/n)? y
+
+System will output its progress after every 100 reverses.
+Testing with 20,000 characters.
+
+Testing Append:
+
+	String Total:		100,643,918
+	String Avg:		      5,032
+
+	MyStringBuilder Total:	  1,464,111
+	MyStringBuilder Avg:	         73
+
+	StringBuilder Total:	  1,119,081
+	StringBuilder Avg:	         56
+
+Testing Delete:
+
+	String Total:		106,605,581
+	String Avg:		      5,330
+
+	MyStringBuilder Total:	  1,083,007
+	MyStringBuilder Avg:	         54
+
+	StringBuilder Total:	  9,032,151
+	StringBuilder Avg:	        452
+
+
+Testing Insert:
+
+	String Total:		286,934,904
+	String Avg:		     14,347
+
+	MyStringBuilder Total:	158,960,111
+	MyStringBuilder Avg:	      7,948
+
+	StringBuilder Total:	  4,769,784
+	StringBuilder Avg:	        238
+
+
+
+Testing Reverse:
+
+String Reverse progress: 0, 100, 200, 300, 400, 500, 600, 700, 800, 900, 1000, 1100, 1200, 1300, 1400, 1500, 1600, 1700, 1800, 1900, 2000, 2100, 2200, 2300, 2400, 2500, 2600, 2700, 2800, 2900, 3000, 3100, 3200, 3300, 3400, 3500, 3600, 3700, 3800, 3900, 4000, 4100, 4200, 4300, 4400, 4500, 4600, 4700, 4800, 4900, 5000, 5100, 5200, 5300, 5400, 5500, 5600, 5700, 5800, 5900, 6000, 6100, 6200, 6300, 6400, 6500, 6600, 6700, 6800, 6900, 7000, 7100, 7200, 7300, 7400, 7500, 7600, 7700, 7800, 7900, 8000, 8100, 8200, 8300, 8400, 8500, 8600, 8700, 8800, 8900, 9000, 9100, 9200, 9300, 9400, 9500, 9600, 9700, 9800, 9900, 10000, 10100, 10200, 10300, 10400, 10500, 10600, 10700, 10800, 10900, 11000, 11100, 11200, 11300, 11400, 11500, 11600, 11700, 11800, 11900, 12000, 12100, 12200, 12300, 12400, 12500, 12600, 12700, 12800, 12900, 13000, 13100, 13200, 13300, 13400, 13500, 13600, 13700, 13800, 13900, 14000, 14100, 14200, 14300, 14400, 14500, 14600, 14700, 14800, 14900, 15000, 15100, 15200, 15300, 15400, 15500, 15600, 15700, 15800, 15900, 16000, 16100, 16200, 16300, 16400, 16500, 16600, 16700, 16800, 16900, 17000, 17100, 17200, 17300, 17400, 17500, 17600, 17700, 17800, 17900, 18000, 18100, 18200, 18300, 18400, 18500, 18600, 18700, 18800, 18900, 19000, 19100, 19200, 19300, 19400, 19500, 19600, 19700, 19800, 19900, 
+
+	String Total:		2,756,926,362,568
+	String Avg:		      137,846,318
+
+	MSB Total:		380,973,551
+	MSB Avg:		     19,049
+
+	MSB Total:		75,441,450
+	MSB Avg:		     3,772
+
+Nics-MacBook-Pro:assig2 Nic$ java Assig2B 40000
+Testing with 40,000 characters.
+
+Testing Append:
+
+	String Total:		395,918,379
+	String Avg:		      9,898
+
+	MyStringBuilder Total:	  2,011,806
+	MyStringBuilder Avg:	         50
+
+	StringBuilder Total:	  6,421,309
+	StringBuilder Avg:	        161
+
+Testing Delete:
+
+	String Total:		339,241,440
+	String Avg:		      8,481
+
+	MyStringBuilder Total:	  2,363,490
+	MyStringBuilder Avg:	         59
+
+	StringBuilder Total:	 57,294,377
+	StringBuilder Avg:	      1,432
+
+
+Testing Insert:
+
+	String Total:		935,720,136
+	String Avg:		     23,393
+
+	MyStringBuilder Total:	869,021,716
+	MyStringBuilder Avg:	     21,726
+
+	StringBuilder Total:	 19,059,716
+	StringBuilder Avg:	        476
+
+
+
+Testing Reverse:
+
+String Reverse not being tested this time.
+
+	MSB Total:		2,027,240,134
+	MSB Avg:		       50,681
+
+	MSB Total:		271,472,125
+	MSB Avg:		      6,787
+
+Nics-MacBook-Pro:assig2 Nic$ java Assig2B 80000
+Testing with 80,000 characters.
+
+Testing Append:
+
+	String Total:		1,303,779,877
+	String Avg:		       16,297
+
+	MyStringBuilder Total:	    1,964,267
+	MyStringBuilder Avg:	           25
+
+	StringBuilder Total:	    1,035,468
+	StringBuilder Avg:	           13
+
+Testing Delete:
+
+	String Total:		863,054,499
+	String Avg:		     10,788
+
+	MyStringBuilder Total:	  3,684,987
+	MyStringBuilder Avg:	         46
+
+	StringBuilder Total:	192,218,946
+	StringBuilder Avg:	      2,403
+
+
+Testing Insert:
+
+	String Total:		2,789,397,972
+	String Avg:		       34,867
+
+	MyStringBuilder Total:	3,073,138,570
+	MyStringBuilder Avg:	       38,414
+
+	StringBuilder Total:	  125,054,678
+	StringBuilder Avg:	        1,563
+
+
+
+Testing Reverse:
+
+String Reverse not being tested this time.
+
+	MSB Total:		8,903,998,201
+	MSB Avg:		      111,300
+
+	MSB Total:		1,181,720,164
+	MSB Avg:		       14,772
+
+Nics-MacBook-Pro:assig2 Nic$ java Assig2B 160000
+Testing with 160,000 characters.
+
+Testing Append:
+
+	String Total:		3,912,024,446
+	String Avg:		       24,450
+
+	MyStringBuilder Total:	    6,062,551
+	MyStringBuilder Avg:	           38
+
+	StringBuilder Total:	   21,617,876
+	StringBuilder Avg:	          135
+
+Testing Delete:
+
+	String Total:		3,495,829,397
+	String Avg:		       21,849
+
+	MyStringBuilder Total:	    7,973,193
+	MyStringBuilder Avg:	           50
+
+	StringBuilder Total:	  869,884,212
+	StringBuilder Avg:	        5,437
+
+
+Testing Insert:
+
+	String Total:		12,103,103,392
+	String Avg:		        75,644
+
+	MyStringBuilder Total:	13,565,414,632
+	MyStringBuilder Avg:	        84,784
+
+	StringBuilder Total:	   406,892,405
+	StringBuilder Avg:	         2,543
+
+
+
+Testing Reverse:
+
+String Reverse not being tested this time.
+
+	MSB Total:		39,840,544,276
+	MSB Avg:		       249,003
+
+	MSB Total:		4,201,979,338
+	MSB Avg:		       26,262
